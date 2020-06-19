@@ -1,10 +1,5 @@
 body {
   background-color: #EEE;
-  font-family: 'Lora', serif;
-}
-
-main{
-    font-family: 'Lora', serif;
 }
 
 h1{
@@ -14,7 +9,7 @@ h1{
 
 #container {
   background-color: white;
-  width: 1000px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -60,20 +55,17 @@ label{
   font-size: 14px;
 }
 
-th{
-  text-align: center;
-}
 
 #result_table{
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
-  width: 750px;
+  width: 800px;
   float: right;
-  margin-right: 40px;
   border-radius: 5px 5px 0 0;
+  overflow: hidden;
   box-shadow: 0 0 20px rbga(0,0,0,0.15);
-  /* table-layout: fixed; */
+
 }
 
 .content-table thead tr{
@@ -105,6 +97,10 @@ th{
   color: #009879;
 }
 
+/* .dropdown-block{
+  padding-bottom: 45px;
+} */
+
 #dropdown-block-label {
     font-weight: bold;
     position: relative;
@@ -119,11 +115,10 @@ th{
 #footer{
   clear: both;
   padding: 10px;
-  background-color: #85a0c7;
+  background-color: #999999;
   color: white ;
   text-align: right;
 }
-
 
 #parameter{
   display: block;
@@ -152,44 +147,8 @@ th{
   width: 750px;
   text-align: justify;
   margin-right: 40px;
-  line-height: 28px;
-}
-
-.image{
-  width: 750px;
-  float: right;
-  padding-bottom: 20px;
 }
 
 .math{
   text: 20px;
-}
-
-#input{
-  margin-top: 45px;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  text-decoration: none;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }

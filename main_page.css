@@ -1,5 +1,6 @@
 body {
   background-color: #f3f3f3;
+  font-family: 'Lora', serif;
 }
 
 a{
@@ -40,6 +41,8 @@ nav ul{
   padding-left: 0;
 }
 
+
+
 #nav.selected{
   font-weight: bold;
 }
@@ -72,13 +75,19 @@ a {
   color: black;
   font-weight: bold;
 }
-/*  */
+
+#ul-linkedin{
+  padding-inline-start: 0px;
+}
+
+
 #linkedin{
   display: flex;
   background: #e3edf7;
   height: 35px;
   width: 35px;
-  margin: 0 15px;
+  margin: 0 5px;
+  padding-inline-start: 0px;
   border-radius: 8px;
   align-items: center;
   justify-content: center;
@@ -111,4 +120,8 @@ a {
 
 a:hover .fa-linkedin{
   color: #0e76a8
+}
+
+.text{
+  line-height: 1.5em;
 }

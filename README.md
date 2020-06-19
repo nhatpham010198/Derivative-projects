@@ -1,1 +1,0 @@
-To run the website on your own laptop/PC, you need to install flask and flask_sqlalchemy before running binomial.py in the terminal to create the http://localhost:5000/. Then you can click on any html file and take a look at the website

@@ -1,11 +1,14 @@
 body {
   background-color: #EEE;
-  font-family: 'Lato', sans-serif;
-  line-height: 25px;
+  font-family: 'Lora', serif;
 }
 
+p{
+  line-height: 25px;
+}
 h3{
   color: #457cb7;
+
   font-weight: bold
 }
 
@@ -72,12 +75,18 @@ a {
 }
 
 /*  */
+#ul-linkedin{
+  padding-inline-start: 0px;
+}
+
+
 #linkedin{
   display: flex;
   background: #e3edf7;
   height: 35px;
   width: 35px;
-  margin: 0 15px;
+  margin: 0 5px;
+  padding-inline-start: 0px;
   border-radius: 8px;
   align-items: center;
   justify-content: center;
