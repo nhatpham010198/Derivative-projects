@@ -65,6 +65,7 @@ th{
 }
 
 #result_table{
+  display: block;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -114,6 +115,15 @@ th{
     padding-left: 13px;
     line-height: 50px;
     transition: .5s ease;
+}
+
+#table-wrapper{
+  overflow-x: scroll;
+  width: 750px;
+}
+
+#wrapper-of-wrapper{
+  display: flex;
 }
 
 #footer{
